@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+
+<h1>Contact Us</h1>
+
+<form class="blog" action="/contact" method="post">
+  <div class="form-group">
+    <label>Subject</label>
+    <input class="form-control" type="text" name="msgSubject">
+    <label>Message</label>
+    <textarea class="form-control" name="msgBody" cols="30" rows="5"></textarea>
+  </div>
+  <button type="submit" name="publish" autocomplete="off" class="btn btn-success">Send</button>
+</form>
+
+
+
+<%- include("partials/footer") -%>
